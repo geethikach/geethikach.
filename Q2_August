@@ -1,0 +1,31 @@
+//Insert code below
+
+class Student
+{
+	constructor()
+	{
+		var name;
+		var marks;
+	}
+	    getName()
+	{
+		return this.name;
+	}
+	    setName(name)
+	{
+		this.name=name;
+	}
+	    getMarks()
+	{
+		return this.marks;
+	}
+  	    setMarks(marks)
+	{
+		this.marks=marks;
+	}
+	
+}
+var stu=new Student();
+stu.setName("john");
+stu.setMarks(80);
+document.writeln(stu.getName()+" "+stu.getMarks());
